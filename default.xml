@@ -8,8 +8,7 @@
   <remote  name="unlegacy"
            fetch="https://github.com/Unlegacy-Android/" />
   <default revision="refs/tags/android-7.1.2_r33"
-           remote="aosp"
-           sync-j="4" />
+           remote="aosp" />
 
   <project path="build" name="platform_build" remote="ads" revision="ads-7.1.0" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
