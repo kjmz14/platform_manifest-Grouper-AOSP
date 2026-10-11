@@ -9,6 +9,8 @@
            fetch="https://github.com/Unlegacy-Android/" />
   <remote  name="kjmz"
            fetch="https://github.com/kjmz14/" />
+  <remote  name="los4mg"
+           fetch="https://github.com/lineageos4microg/" />
   <default revision="refs/tags/android-7.1.2_r33"
            remote="aosp" />
 
@@ -512,5 +514,5 @@
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="ads" revision="ads-7.0.1" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="ads" revision="ads-7.1.0" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="ads" revision="ads-7.1.0" />
-  <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
+  <project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="los4mg" revision="master" />
 </manifest>
